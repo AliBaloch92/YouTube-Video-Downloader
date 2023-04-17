@@ -12,11 +12,10 @@
                     <form action="" method="post">
                         
                         <div class="border1">
-                            {% csrf_token %}
+                            {% comment %} {% csrf_token %} {% endcomment %}
                             {{ form|crispy }}
-                       
+                        </div>
                         <input type="submit" value="Download" class="btn btn-dark btn-block">
-                    </div>
                     </form>
                 </div>
             </div>
