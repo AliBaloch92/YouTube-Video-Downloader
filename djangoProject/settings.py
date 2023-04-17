@@ -29,8 +29,8 @@ ALLOWED_HOSTS = ['web-production-9367.up.railway.app']
 
 CSRF_TRUSTED_ORIGINS = ['https://web-production-9367.up.railway.app']
 
-CSRF_COOKIE_DOMAIN = 'https://web-production-9367.up.railway.app'
-CSRF_COOKIE_NAME = 'csrftoken'
+# CSRF_COOKIE_DOMAIN = 'https://web-production-9367.up.railway.app'
+# CSRF_COOKIE_NAME = 'csrftoken'
 
 
 # Application definition
