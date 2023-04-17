@@ -13,14 +13,7 @@ from pytube import *
 from pytube.exceptions import RegexMatchError
 from pytube import YouTube
 from pytube import extract
-# from django.middleware.csrf import get_token
 
-
-# def my_view(request):
-#     # Your view code here
-#     csrf_token = get_token(request)
-#     context = {'csrf_token': csrf_token}
-#     return render(request, 'home.html', context)
 
 def download_video(request):
     form = DownloadForm(request.POST or None)
