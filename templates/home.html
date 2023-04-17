@@ -12,7 +12,7 @@
                     <form action="" method="post">
                         
                         <div class="border1">
-                            {% comment %} {% csrf_token %} {% endcomment %}
+                            {% csrf_token %}
                             {{ form|crispy }}
                         </div>
                         <input type="submit" value="Download" class="btn btn-dark btn-block">
