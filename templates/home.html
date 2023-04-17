@@ -10,8 +10,9 @@
             <div class="row">
                 <div class="content">
                     <form action="" method="post">
-                        {{ csrf_token }}
+                        
                         <div class="border1">
+                            {% csrf_token %}
                             {{ form|crispy }}
                         </div>
                         <input type="submit" value="Download" class="btn btn-dark btn-block">
