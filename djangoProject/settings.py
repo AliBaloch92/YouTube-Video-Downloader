@@ -32,7 +32,7 @@ ALLOWED_HOSTS = ['.vercel.app', '.now.sh']
 
 INSTALLED_APPS = [
     'ytdl',
-    'yt_dlp' ,
+    'pytube' ,
     "crispy_forms",
     "crispy_bootstrap5",
     
